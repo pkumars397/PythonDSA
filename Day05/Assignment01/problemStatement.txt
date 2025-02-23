@@ -1,0 +1,42 @@
+🚀 Doraemon's Secret Gadget Mission! 🛠️
+Nobita has accidentally erased Doraemon’s gadget inventory file! Doraemon needs your help to recreate the file and ensure it's error-free using Python.
+ 
+📝 Problem Statement
+Doraemon stores all his secret gadgets in a file called gadgets.txt. The file stores gadget names along with their descriptions.
+ 
+Your task is to create a Python program that:
+ 
+Takes a list of gadgets and their descriptions from command-line arguments.
+Saves this data in a file (gadgets.txt).
+Handles possible errors gracefully (such as missing arguments, file permission errors, or invalid input).
+Reads back the data and displays it in a fun format.
+📌 Input Format
+The user runs the script with command-line arguments like this:
+ 
+
+python doraemon_gadgets.py "Bamboo Copter: A flying gadget" "Anywhere Door: Travel anywhere instantly"
+🎯 Your Task
+Accept command-line arguments (except the script name).
+Handle exceptions:
+If no gadgets are given, show an error.
+Handle file writing/reading errors.
+Write the data to a file named gadgets.txt.
+Read from the file and display it nicely.
+🔍 Hints to Help You!
+✨ Hint 1: Use the sys module to read command-line arguments.
+✨ Hint 2: Use try-except to catch errors (like missing arguments).
+✨ Hint 3: Open files in write (w) mode and then read (r) mode.
+✨ Hint 4: Read and display the data in a fun and creative format!
+ 
+🎭 Example Run
+Running the Script
+python doraemon_gadgets.py "Time Cloth: Rewinds or fast-forwards time" "Memory Bread: Helps memorize things"
+Expected Output
+📜 Doraemon’s Gadget List 📜
+----------------------------------
+🔹 Time Cloth - Rewinds or fast-forwards time
+🔹 Memory Bread - Helps memorize things
+----------------------------------
+Gadgets saved successfully! 🚀
+
+has context menu

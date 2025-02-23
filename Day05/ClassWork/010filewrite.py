@@ -1,0 +1,5 @@
+f=open("textfile.txt", "w")
+f.write("Hello,Python file handling")
+f.write("This is a new line in a file")
+f.close()
+print("File created and written successfully")

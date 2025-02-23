@@ -1,0 +1,16 @@
+{
+    "firstName": "Prashant",
+    "lastName": "Kumar",
+    "Address": [
+        {
+            "street": "ABC",
+            "city": "Hydrabad",
+            "state": "TL"
+        },
+        {
+            "street": "XYZ",
+            "city": "Pune",
+            "state": "MH"
+        }
+    ]
+}

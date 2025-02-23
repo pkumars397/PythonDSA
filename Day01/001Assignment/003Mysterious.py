@@ -1,0 +1,5 @@
+n1=float(input("enter first number: "))
+n2=float(input("enter the second number: "))
+print(f"Sum: {n1 +n2}")
+print(f"Product: {n1*n2}")
+print(f"Difference: {n1-n2}")

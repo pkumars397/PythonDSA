@@ -1,0 +1,23 @@
+Learnt about various http request
+1.)GET request 
+->Used to fetch data from the server
+->safe and doesn't change server satate
+->Idempotent
+
+2.)POST request
+->Used to send data to server to create a new Resource
+->Data sended in request body
+->Non Idempotent
+
+3.)PUT request 
+->used to update a resource
+->Replace entire resource with provided data 
+->Idempotent (multiple requests have same effect)
+
+4.)PATCH 
+->Its update partially 
+->only updates the field provideded in the request body 
+
+5.)DELETE 
+->Used to delete a resource 
+->Idempotent (deleting same resources multiple times has no further effect)

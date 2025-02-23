@@ -1,0 +1,4 @@
+Hello,Python file handlingThis is a new line in a fileAppending a new line to the fileAppending a new line to the file
+Appending a new line to the file
+Appending a new line to the file
+Appending a new line to the file

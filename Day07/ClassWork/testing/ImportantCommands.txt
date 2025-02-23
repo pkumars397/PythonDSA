@@ -1,0 +1,9 @@
+#installing Pytest 
+pip install Pytest
+
+#checking version
+pytest --version
+
+#for getting html report 
+step 1: pip intsall pytest-html
+step 2: pytest --html=report.html
